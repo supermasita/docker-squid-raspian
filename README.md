@@ -3,8 +3,8 @@
 * Very basic Squid configuration
 * Disk cache enabled
 * NCSA authentication (not enabled by default)
-** User/Password file: /etc/squid/passwords
-** Default User/Password: user1/password1 
+  * User/Password file: /etc/squid/passwords
+  * Default User/Password: user1/password1 
 
 
 Example run:
