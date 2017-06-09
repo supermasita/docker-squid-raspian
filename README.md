@@ -1,5 +1,7 @@
 # Basic Squid on Raspian
 
+:warning:  Needs to be build in a Raspberry
+
 * Very basic Squid configuration
 * Disk cache enabled
 * NCSA authentication (not enabled by default)
@@ -9,10 +11,6 @@
 
 Example run:
 ```
-$ sudo docker pull supermasita/docker-squid-raspian
-
-(...)
-
 $ sudo docker run --rm -p 3128:3128 -d --name "squid" -t docker-squid-raspian
 fcd7982bc7adbc6a6bbec923498d1808a26b8e2039058e64e58e9cfd7826735d
 
