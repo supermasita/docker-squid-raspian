@@ -9,7 +9,11 @@
 
 Example run:
 ```
-$ sudo docker run --rm -p 3128:3128 -d --name "squid" -t squid
+$ sudo docker pull supermasita/docker-squid-raspian
+
+(...)
+
+$ sudo docker run --rm -p 3128:3128 -d --name "squid" -t docker-squid-raspian
 fcd7982bc7adbc6a6bbec923498d1808a26b8e2039058e64e58e9cfd7826735d
 
 $ sudo docker exec -i -t squid tail -f /var/log/squid3/access.log
